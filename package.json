@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-server": "node app.js",
-    "start-app": "http-server -p 9090 -o web/index.html"
+    "start": "node app.js & http-server -p 9090 -o web/index.html"
   },
   "author": "",
   "license": "ISC",

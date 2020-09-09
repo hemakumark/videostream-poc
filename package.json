@@ -1,0 +1,19 @@
+{
+  "name": "videostream",
+  "version": "1.0.0",
+  "description": "Video streaming POC using node-media server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node app.js",
+    "start-app": "http-server -p 9090 -o web/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@videojs/http-streaming": "^1.13.3",
+    "node-media-server": "^2.2.2",
+    "videojs-flash": "^2.2.1",
+    "http-server": "^0.12.3"
+  }
+}

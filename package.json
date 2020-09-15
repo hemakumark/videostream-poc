@@ -5,14 +5,15 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js & http-server -p process.env.PORT || 5000"
+    "start-server": "node app.js & http-server -p process.env.PORT || 5000",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@videojs/http-streaming": "^1.13.3",
+    "express": "^4.17.1",
     "node-media-server": "^2.2.2",
-    "videojs-flash": "^2.2.1",
-    "http-server": "^0.12.3"
+    "videojs-flash": "^2.2.1"
   }
 }

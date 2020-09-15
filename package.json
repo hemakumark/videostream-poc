@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-server": "node app.js & http-server -p process.env.PORT || 5000",
-    "start": "node server.js"
+    "start": "node server.js & node app.js"
   },
   "author": "",
   "license": "ISC",

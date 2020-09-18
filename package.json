@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@videojs/http-streaming": "^1.13.3",
     "express": "^4.17.1",
     "node-media-server": "^2.2.2",
     "videojs-flash": "^2.2.1"

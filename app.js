@@ -16,7 +16,7 @@ const config = {
   trans: {
     //ffmpeg: process.env.FFMPEG_BIN_URL,
     //ffmpeg: '/usr/local/bin/ffmpeg',
-    ffmpeg: '/app/ffmpeg',
+    ffmpeg: '/usr/bin/ffmpeg',
     tasks: [
       {
         app: 'live',

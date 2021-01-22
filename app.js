@@ -15,8 +15,8 @@ const config = {
   },
   auth: {
     api : true,
-    api_user: 'admin',
-    api_pass: 'leoburnett@098',
+    api_user: 'alcs',
+    api_pass: 'Alcs@123',
   },
   trans: {
     //ffmpeg: process.env.FFMPEG_BIN_URL,

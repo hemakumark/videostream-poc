@@ -7,7 +7,7 @@ var app = module.exports = express();
 
 var staticUserAuth = basicAuth({
     users: {
-        'admin': 'leoburnett@098'
+        'alcs': 'Alcs@123'
     },
     challenge: true
 })

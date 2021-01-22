@@ -13,10 +13,14 @@ const config = {
     mediaroot: './media',
     allow_origin: '*'
   },
+  auth: {
+    api : true,
+    api_user: 'admin',
+    api_pass: 'nms2018',
+  },
   trans: {
-    //ffmpeg: process.env.FFMPEG_BIN_URL,
-    //ffmpeg: '/usr/local/bin/ffmpeg',
-    ffmpeg: '/root/bin/ffmpeg',
+    ffmpeg: '/usr/local/bin/ffmpeg',
+    //ffmpeg: '/root/bin/ffmpeg',
     tasks: [
       {
         app: 'live',

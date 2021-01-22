@@ -19,8 +19,9 @@ const config = {
     api_pass: 'nms2018',
   },
   trans: {
-    ffmpeg: '/usr/local/bin/ffmpeg',
-    //ffmpeg: '/root/bin/ffmpeg',
+    //ffmpeg: process.env.FFMPEG_BIN_URL,
+    //ffmpeg: '/usr/local/bin/ffmpeg', local
+    ffmpeg: '/root/bin/ffmpeg', // cloud
     tasks: [
       {
         app: 'live',

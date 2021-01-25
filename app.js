@@ -13,10 +13,15 @@ const config = {
     mediaroot: './media',
     allow_origin: '*'
   },
+  auth: {
+    api : true,
+    api_user: 'alcs',
+    api_pass: 'Alcs@123',
+  },
   trans: {
     //ffmpeg: process.env.FFMPEG_BIN_URL,
-    //ffmpeg: '/usr/local/bin/ffmpeg',
-    ffmpeg: '/root/bin/ffmpeg',
+    //ffmpeg: '/usr/local/bin/ffmpeg', local
+    ffmpeg: '/root/bin/ffmpeg', // cloud
     tasks: [
       {
         app: 'live',
